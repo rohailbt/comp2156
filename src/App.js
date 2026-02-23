@@ -8,7 +8,7 @@ const App = () => {
 
   const addStudent = (student) => {
     setStudents([...students, student]);
-<h2>Deployment test update</h2>
+
   };
 
   return (
