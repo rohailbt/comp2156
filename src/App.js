@@ -8,12 +8,13 @@ const App = () => {
 
   const addStudent = (student) => {
     setStudents([...students, student]);
+<h2>Deployment test update</h2>
   };
 
   return (
     <div className="App">
-      <h1>Studen ID: Put Your Student ID</h1>
-      <h1>Studen ID: Put Your Student Name</h1>
+      <h1>Studen ID: 101601533</h1>
+      <h1>Studen ID: Rohail Bhatti</h1>
       <h1>Student Information System</h1>
       <h5>Powered By: moxDroid Labs Inc. || DevOps</h5>
       <StudentForm addStudent={addStudent} />
